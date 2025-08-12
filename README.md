@@ -146,8 +146,8 @@ pip install pandas numpy matplotlib seaborn tensorflow keras nltk google-api-pyt
 ## ▶️ How to Run
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/asmr-sentiment-classification.git
-   cd asmr-sentiment-classification
+   git clone https://github.com/ali27kh/ASMR_sentiment_analysis.git
+   cd ASMR_sentiment_analysis
    ```
 2. Download the IMDb dataset and place it in the project folder.
 3. Place the data on model folder 
