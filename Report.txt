@@ -1,0 +1,5 @@
+predicted_sentiment  Negative  Neutral  Positive
+categorie                                       
+food                    68931     8022     21726
+makeup                   4749      708      3511
+sleeping                11935     1554      5144
