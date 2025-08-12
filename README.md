@@ -150,27 +150,19 @@ pip install pandas numpy matplotlib seaborn tensorflow keras nltk google-api-pyt
    cd asmr-sentiment-classification
    ```
 2. Download the IMDb dataset and place it in the project folder.
-3. Run the YouTube comments scraper:
-   ```bash
-   python scrape_youtube_comments.py
+3. Place the data on model folder 
+   modify Transformer_sentiment_model.ipynb (according to your needs)
    ```
-4. Clean and preprocess data:
-   ```bash
-   python preprocess_comments.py
-   ```
-5. Run sentiment prediction:
-   ```bash
-   python sentiment_classification.py
-   ```
-6. View results & plots — they will be saved as PNG files.
+4. run the other files with your own test_data
 
 ---
 
 ## 📌 Key Insights
-- **Food ASMR** generally receives more **Positive** engagement.
-- **Sleeping ASMR** has a balanced mix of **Neutral** and **Positive** sentiments.
-- **Makeup ASMR** often gets shorter, casual, and highly **Positive** comments.
+- **Food ASMR** has the largest volume of comments but predominantly **Negative** sentiments (70%), with only 22% **Positive**.
+- **Sleeping ASMR** shows a moderate level of **Positive** sentiments (28%), balanced against 64% **Negative**.
+- **Makeup ASMR** receives the highest proportion of **Positive** sentiments (39%), though still with a slight majority of **Negative** comments (53%).
 - The number of likes correlates with positive engagement.
+"""
 
 ---
 
