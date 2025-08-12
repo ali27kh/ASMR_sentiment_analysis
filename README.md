@@ -152,7 +152,6 @@ pip install pandas numpy matplotlib seaborn tensorflow keras nltk google-api-pyt
 2. Download the IMDb dataset and place it in the project folder.
 3. Place the data on model folder 
    modify Transformer_sentiment_model.ipynb (according to your needs)
-   ```
 4. run the other files with your own test_data
 
 ---
